@@ -1,0 +1,14 @@
+AI use disclosure
+
+1. AI tool used: GitHub Copilot.
+
+2. Prompt excerpts:
+- "Create the following pages" for the Peer Tutoring Hub, including a home page, tutor table, and request form.
+- "Use Bootstrap 5.3 through the CDN and load your custom stylesheet after the Bootstrap stylesheet."
+- "Add a PHP opening tag and use echo to display a confirmation message."
+
+3. How AI helped: Copilot helped implement and revise the HTML pages, responsive CSS, Bootstrap integration, and PHP form response. It also helped check page links, image delivery, and form behavior. I reviewed and tested the resulting code.
+
+4. Example tested and revised: Copilot initially used a PHP handler that read and validated submitted fields and rendered a full response page. I revised it to the lab's required minimal PHP echo without a closing tag, then tested it with `php -l` and a POST request to confirm the exact response text.
+
+No passwords, personal information, or other sensitive information were provided to the AI tool.
